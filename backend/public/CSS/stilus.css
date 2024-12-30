@@ -1,0 +1,13 @@
+@import url('./valtozok.css');
+@import url('./nav.css');
+@import url('./index.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fredoka);
+}

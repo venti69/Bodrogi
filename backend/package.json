@@ -1,0 +1,27 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "Gyakorló feladat",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "mongoose"
+    ],
+    "author": "Bodrogi Péter Róbert",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "ejs": "^3.1.10",
+        "express": "^4.21.2",
+        "mongoose": "^8.9.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
+}

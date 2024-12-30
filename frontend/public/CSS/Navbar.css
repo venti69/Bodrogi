@@ -1,0 +1,37 @@
+.navbar-kontener {
+    align-items: center;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+}
+
+.navbar-bal-kontener a {
+    color: var(--feher);
+    font-size: 2em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar-jobb-kontener,
+.navbar-jobb-auth-kontener {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+}
+
+.navbar-jobb-kontener a,
+.navbar-jobb-auth-kontener a {
+    color: var(--feher);
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 4em;
+    text-decoration: none;
+}

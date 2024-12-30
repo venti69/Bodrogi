@@ -1,0 +1,14 @@
+@import url('/CSS/valtozok.css');
+@import url('/CSS/Navbar.css');
+@import url('/CSS/Home.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('/images/konyv.jpg');
+    font-family: var(--inter);
+}
