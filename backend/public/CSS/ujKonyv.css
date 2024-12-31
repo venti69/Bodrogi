@@ -1,0 +1,24 @@
+#ujkonyv-kontener {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+#ujkonyv-kontener td {
+    font-size: 2em;
+}
+
+#ujkonyv-kontener td input {
+    font-size: 1.5em;
+}
+
+#ujkonyv-kontener td select {
+    font-size: 1.5em;
+}
+
+#ujkonyv-kontener td button {
+    font-size: 1.5em;
+}

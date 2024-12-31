@@ -1,0 +1,27 @@
+# Backend (Server Side)
+
+-   [ ] Lépjünk be a **backend** mappába (Git Bash): `cd backend`
+-   [ ] Hozzunk létre **bookstore** néven egy _MongoDb_ adatbázist.
+-   [ ] Szerkesszük a **.env** állományt: **images/kep_006.png** => **images/kep_031.png**
+-   [ ] Lépjünk be a **utils** mappába és hozzuk létre a **dbConnect.js** állományt (Git Bash): `cd backend` `touch dbConnect.js`
+-   [ ] Szerkesszük a **dbConnect.js** állományt. Eredmény: **images/kep_032.png**
+-   [ ] Szerkesszük a **server.js** állományt. Eredmény: **images/kep_032.png** => **images/kep_033.png**
+-   [ ] Hozzunk létre a **public** mappában egy **images** nevű mappát (Git Bash): `cd ..` `cd public` `mkdir images`
+-   [ ] Töltsünk bele néhány képet.
+-   [ ] Hozzunk létre a **models** mappában egy **Book.js** nevű állományt (Git Bash): `cd ..` `cd models` `touch Book.js`
+-   [ ] Szerkesszük a **Book.js** állományt. Eredmény: **images/kep_034.png**
+-   [ ] Hozzunk létre és szerkesszük a **controllers** mappában egy **ujKonyvRouteControllers.js** nevű állományt (Git Bash): `cd ..` `cd controllers` `touch ujKonyRouteControllers.js`
+-   [ ] Eredmény: **images/kep_035.png**
+-   [ ] Hozzunk létre és szerkesszük a **routes** mappában egy **ujKonyvRoutes.js** nevű állományt (Git Bash): `cd ..` `cd routes` `touch ujKonyRoutes.js`
+-   [ ] Eredmény: **images/kep_036.png**
+-   [ ] Szerkesszük a **server.js** állományt. Eredmény: **images/kep_033.png** => **images/kep_037.png**
+-   [ ] Hozzunk létre és szerkesszük a **views** mappában egy **ujKonyv.ejs** nevű állományt (Git Bash): `cd ..` `cd views` `touch ujKonyv.ejs`
+-   [ ] Eredmény: **images/kep_038.png**
+-   [ ] Hozzunk létre és szerkesszük a **CSS** mappában egy **ujKonyv.css** nevű állományt (Git Bash): `cd ..` `cd public/CSS` `touch ujKonyv.css`
+-   [ ] Eredmény: **images/kep_039.png**
+-   [ ] Hozzunk létre a **public** mappában egy **JS** nevű mappát (Git Bash): `cd ..` `cd public` `mkdir JS`
+-   [ ] Hozzunk létre és szerkesszük a **public/JS** mappában egy **feldolgoz.js** nevű állományt (Git Bash): `cd JS` `touch feldolgoz.js`
+-   [ ] Eredmény: **images/kep_040.png**
+-   [ ] Módosúlt **stilus.css**: **images/kep_009.png** => **images/kep_041.png**
+-   [ ] Szerkesszük az **ujKonyvRouteControllers.js** állományt: **images/kep_035.png** => **images/kep_042.png**
+-   [ ] Szerkesszük az **ujKonyvRoutes.js** állományt: **images/kep_036.png** => **images/kep_043.png**

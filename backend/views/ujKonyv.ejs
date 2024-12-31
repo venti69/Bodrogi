@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/stilus.css"
+        />
+        <title>Szerver New Book Page</title>
+    </head>
+    <body>
+        <%- include('./nav.ejs') %>
+        <div id="ujkonyv-kontener">
+            <h1>Szerver New Book Page</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>Cím:</td>
+                        <td>
+                            <input
+                                type="text"
+                                id="cim"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Szerző:</td>
+                        <td>
+                            <input
+                                type="text"
+                                id="szerzo"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ár:</td>
+                        <td>
+                            <input
+                                type="number"
+                                id="ar"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Oldalszám:</td>
+                        <td>
+                            <input
+                                type="number"
+                                id="oldalszam"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kép:</td>
+                        <td>
+                            <input
+                                type="text"
+                                id="kep"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Típus:</td>
+                        <td>
+                            <select id="tipus">
+                                <option value="Regény">Regény</option>
+                                <option value="Magazin">Magazin</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="feldolgozas(event)">
+                                Feldolgoz
+                            </button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <script src="/js/feldolgoz.js"></script>
+    </body>
+</html>

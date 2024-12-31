@@ -1,6 +1,7 @@
 @import url('./valtozok.css');
 @import url('./nav.css');
 @import url('./index.css');
+@import url('./ujKonyv.css');
 
 * {
     box-sizing: border-box;
