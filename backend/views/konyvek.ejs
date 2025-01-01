@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/stilus.css"
+        />
+        <title>Szerver Books Page</title>
+    </head>
+    <body>
+        <%- include('./nav.ejs') %>
+        <div id="konyvek-kontener">
+            <h1>Szerver Books Page</h1>
+            <div id="books-kontener">
+                <% books.forEach(book => { %>
+                <div class="book-kontener">
+                    <h2><%= book.szerzo %></h2>
+                    <h3><%= book.cim %></h3>
+                    <p>Ár: <%= book.ar %> Ft</p>
+                    <p>Oldalszám: <%= book.oldalszam %></p>
+                    <p>Tipus: <%= book.tipus %></p>
+                    <img src="/images/<%= book.kep %>" />
+                    <button onclick="modosit('<%= book._id %>')">
+                        Módosít
+                    </button>
+                    <button onclick="torol('<%= book._id %>')">Töröl</button>
+                </div>
+                <% }) %>
+            </div>
+        </div>
+        <script src="/JS/modosit-torol.js"></script>
+    </body>
+</html>

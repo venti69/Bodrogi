@@ -2,6 +2,7 @@
 @import url('./nav.css');
 @import url('./index.css');
 @import url('./ujKonyv.css');
+@import url('./konyvek.css');
 
 * {
     box-sizing: border-box;

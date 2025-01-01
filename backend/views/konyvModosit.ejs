@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/stilus.css"
+        />
+        <title>Szerver Unique Book Page</title>
+    </head>
+    <body>
+        <%- include('./nav.ejs') %>
+        <div id="ujkonyv-kontener">
+            <h1>Szerver Unique Book Page</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>Cím:</td>
+                        <td>
+                            <input
+                                type="text"
+                                id="cim"
+                                value="<%= book.cim %>"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Szerző:</td>
+                        <td>
+                            <input
+                                type="text"
+                                id="szerzo"
+                                value="<%= book.szerzo %>"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ár:</td>
+                        <td>
+                            <input
+                                type="number"
+                                id="ar"
+                                value="<%= book.ar %>"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Oldalszám:</td>
+                        <td>
+                            <input
+                                type="number"
+                                id="oldalszam"
+                                value="<%= book.oldalszam %>"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kép:</td>
+                        <td>
+                            <input
+                                type="text"
+                                id="kep"
+                                value="<%= book.kep %>"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Típus:</td>
+                        <td>
+                            <select id="tipus">
+                                <option value="Regény">Regény</option>
+                                <option value="Magazin">Magazin</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button
+                                onclick="feldolgozas(event, '<%- book._id%>')"
+                            >
+                                Feldolgoz
+                            </button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <script src="/js/modositas.js"></script>
+    </body>
+</html>

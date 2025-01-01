@@ -1,0 +1,33 @@
+#konyvek-kontener {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 5em;
+    width: 100vw;
+}
+
+#books-kontener {
+    column-gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 2em;
+}
+
+.book-kontener {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.book-kontener img {
+    height: 330px;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+}
+
+.book-kontener button {
+    font-family: var(--fredoka);
+    padding: 5px;
+}

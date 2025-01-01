@@ -1,6 +1,8 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Books from './pages/Books';
+import UniqueBook from './pages/UniqueBook';
 
 function App() {
     return (
@@ -9,6 +11,14 @@ function App() {
                 <Route
                     index
                     element={<Home />}
+                />
+                <Route
+                    path="/books"
+                    element={<Books />}
+                />
+                <Route
+                    path="/uniquebook/:id"
+                    element={<UniqueBook />}
                 />
             </Routes>
         </BrowserRouter>

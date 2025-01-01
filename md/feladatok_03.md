@@ -1,0 +1,51 @@
+# Backend (Server Side)
+
+-   [ ] Lépjünk be a **backend** mappába (Git Bash): `cd backend`
+-   [ ] Hozzunk létre és szerkesszük a **controllers** mappában egy **konyvekRouteControllers.js** nevű állományt (Git Bash): `cd controllers` `touch konyvekRouteControllers.js`
+-   [ ] Eredmény: **images/kep_044.png**
+-   [ ] Hozzunk létre és szerkesszük a **routes** mappában egy **konyvekRoutes.js** nevű állományt (Git Bash): `cd ..` `cd routes` `touch konyvekRoutes.js`
+-   [ ] Eredmény: **images/kep_045.png**
+-   [ ] Szerkesszük a **server.js** állományt. Eredmény: **images/kep_037.png** => **images/kep_046.png**
+-   [ ] Hozzunk létre és szerkesszük a **views** mappában egy **konyvek.ejs** nevű állományt (Git Bash): `cd ..` `cd views` `touch konyvek.ejs`
+-   [ ] Eredmény: **images/kep_047.png**
+-   [ ] Hozzunk létre és szerkesszük a **public/CSS** mappában egy **konyvek.css** nevű állományt (Git Bash): `cd ..` `cd public/CSS` `touch konyvek.css`
+-   [ ] Eredmény: **images/kep_048.png**
+-   [ ] Hozzunk létre és szerkesszük a **public/JS** mappában egy **modosit-torol.js** nevű állományt (Git Bash): `cd ..` `cd JS` `touch modosit-torol.js`
+-   [ ] Eredmény: **images/kep_049.png**
+-   [ ] Módosúlt **stilus.css**: **images/kep_041.png** => **images/kep_050.png**
+-   [ ] Hozzunk létre és szerkesszük a **controllers** mappában egy **konyvModositRouteControllers.js** nevű állományt (Git Bash): `cd ..` `cd ..` `cd controllers` `touch konyvModositRouteControllers.js`
+-   [ ] Eredmény: **images/kep_051.png**
+-   [ ] Hozzunk létre és szerkesszük a **routes** mappában egy **konyvModositRoutes.js** nevű állományt (Git Bash): `cd ..` `cd routes` `touch konyvModositRoutes.js`
+-   [ ] Eredmény: **images/kep_052.png**
+-   [ ] Szerkesszük a **server.js** állományt. Eredmény: **images/kep_046.png** => **images/kep_053.png**
+-   [ ] Hozzunk létre és szerkesszük a **views** mappában egy **konyvModosit.ejs** nevű állományt (Git Bash): `cd ..` `cd views` `touch konyvModosit.ejs`
+-   [ ] Eredmény: **images/kep_054.png**
+-   [ ] Hozzunk létre és szerkesszük a **public/JS** mappában egy **modositas.js** nevű állományt (Git Bash): `cd ..` `cd public/JS` `touch modosit-torol.js`
+-   [ ] Eredmény: **images/kep_055.png**
+-   [ ] Szerkesszük a **server.js** állományt. Eredmény: **images/kep_046.png** => **images/kep_056.png**
+-   [ ] Hozzunk létre és szerkesszük a **controllers** mappában egy **konyvekFrontendRouteControllers.js** nevű állományt (Git Bash): `cd ..` `cd ..` `cd controllers` `touch konyvekFrontendRouteControllers.js`
+-   [ ] Eredmény: **images/kep_061.png**
+-   [ ] Hozzunk létre és szerkesszük a **routes** mappában egy **konyvekFrontendRoutes.js** nevű állományt (Git Bash): `cd ..` `cd routes` `touch konyvekFrontendRoutes.js`
+-   [ ] Eredmény: **images/kep_062.png**
+-   [ ] Szerkesszük a **server.js** állományt. Eredmény: **images/kep_053.png** => **images/kep_063.png**
+-   [ ] Hozzunk létre és szerkesszük a **controllers** mappában egy **egyediFrontendRouteControllers.js** nevű állományt (Git Bash): `cd ..` `cd ..` `cd controllers` `touch egyediFrontendRouteControllers.js`
+-   [ ] Eredmény: **images/kep_068.png**
+-   [ ] Hozzunk létre és szerkesszük a **routes** mappában egy **egyediFrontendRoutes.js** nevű állományt (Git Bash): `cd ..` `cd routes` `touch egyediFrontendRoutes.js`
+-   [ ] Eredmény: **images/kep_069.png**
+-   [ ] Szerkesszük a **server.js** állományt. Eredmény: **images/kep_063.png** => **images/kep_070.png**
+
+# Frontend (Client Side)
+
+-   [ ] Lépjünk be a **frontend** mappába (Git Bash): `cd frontend`
+-   [ ] **pages** mappán belül **Books.jsx** állomány létrehozása és szerkesztése (Git Bash): `cd src/pages` `touch Books.jsx`
+-   [ ] Eredmény: **images/kep_057.png**
+-   [ ] **public/CSS** mappán belül **Books.css** állományok létrehozása és szerkesztése (Git Bash): `cd ..` `cd ..` `cd public/CSS` `touch Books.css`
+-   [ ] Eredmény: **images/kep_058.png**
+-   [ ] **App.jsx** állomány szerkesztése. Eredmény: **images/kep_026.png** => **images/kep_059.png**
+-   [ ] **App.css** állomány szerkesztése. Eredmény: **images/kep_027.png** => **images/kep_060.png**
+-   [ ] **pages** mappán belül **UniqueBook.jsx** állomány létrehozása és szerkesztése (Git Bash): `cd ..` `cd ..` `cd src/pages` `touch UniqueBook.jsx`
+-   [ ] Eredmény: **images/kep_064.png**
+-   [ ] **public/CSS** mappán belül **UniqueBook.css** állományok létrehozása és szerkesztése (Git Bash): `cd ..` `cd ..` `cd public/CSS` `touch UniqueBook.css`
+-   [ ] Eredmény: **images/kep_065.png**
+-   [ ] **App.jsx** állomány szerkesztése. Eredmény: **images/kep_026.png** => **images/kep_066.png**
+-   [ ] **App.css** állomány szerkesztése. Eredmény: **images/kep_027.png** => **images/kep_067.png**
