@@ -1,5 +1,7 @@
 .books-kontener {
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.45);
+    background-attachment: fixed;
+    color: var(--feher);
     display: grid;
     height: max-content;
     grid-template-columns: 20% 60% 20%;
@@ -8,8 +10,23 @@
     padding-bottom: 1em;
 }
 
+.bal-fix {
+    color: black;
+    font-size: 1.5em;
+    left: 2em;
+    position: fixed;
+    top: 5em;
+}
+
+.jobb-fix {
+    color: black;
+    font-size: 1.5em;
+    position: fixed;
+    right: 2em;
+    top: 5em;
+}
+
 .books-kozep-kontener {
-    color: var(--feher);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
