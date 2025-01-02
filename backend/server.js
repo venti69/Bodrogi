@@ -35,6 +35,8 @@ app.use('/konyvek', require('./routes/konyvekRoutes'));
 app.use('/konyvek-frontend', require('./routes/konyvekFrontendRoutes'));
 app.use('/konyvmodosit', require('./routes/konyvModositRoutes'));
 app.use('/konyvegyedifrontend', require('./routes/egyediFrontendRoutes'));
+app.use('/register', require('./routes/registerRoutes'));
+app.use('/login', require('./routes/loginRoutes'));
 
 // Adatbázis csatlakozás
 let dbconnection = require('./utils/dbConnect');

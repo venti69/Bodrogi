@@ -4,6 +4,7 @@
     color: var(--feher);
     display: grid;
     height: max-content;
+    min-height: 93vh;
     grid-template-columns: 20% 60% 20%;
     margin-bottom: -4em;
     margin-top: 4em;

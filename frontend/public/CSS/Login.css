@@ -1,0 +1,42 @@
+.login-kontener {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.35);
+    color: var(--feher);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.login-kontener h1 {
+    font-size: 3em;
+}
+
+.login-kontener table {
+    border-spacing: 1em;
+}
+
+.login-kontener td {
+    font-size: 2em;
+}
+
+.login-kontener input {
+    font-size: 1em;
+    padding: 3px;
+}
+
+.login-kontener button {
+    background-color: orange;
+    border: none;
+    color: var(--feher);
+    font-family: var(--fredoka);
+    font-size: 1em;
+    padding: 5px;
+}
+
+.login-kontener a {
+    color: rgb(98, 211, 255);
+    text-decoration: none;
+}

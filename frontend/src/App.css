@@ -3,6 +3,8 @@
 @import url('/CSS/Home.css');
 @import url('/CSS/Books.css');
 @import url('/CSS/UniqueBook.css');
+@import url('/CSS/Register.css');
+@import url('/CSS/Login.css');
 
 * {
     box-sizing: border-box;

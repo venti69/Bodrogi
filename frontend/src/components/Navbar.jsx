@@ -1,7 +1,18 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+    const [isAdmin, setIsAdmin] = useState(true);
+    const [isLoggedIn, setIsLoggedIn] = useState(true);
+
+    useEffect(() => {
+        const ia = Boolean(Number(localStorage.getItem('isAdmin')));
+        const is = Boolean(Number(localStorage.getItem('isLoggedIn')));
+
+        setIsAdmin(ia);
+        setIsLoggedIn(is);
+    }, []);
+
     return (
         <div className="navbar-kontener">
             <div className="navbar-bal-kontener">
@@ -11,9 +22,21 @@ const Navbar = () => {
                 <Link to="/books">Könyvek</Link>
                 <Link to="/cart">Kosár</Link>
                 <div className="navbar-jobb-auth-kontener">
-                    <Link to="/register">Regisztráció</Link>
-                    <Link to="/login">Bejelentkezés</Link>
-                    <Link to="/logout">Kijelentkezés</Link>
+                    {isLoggedIn ? (
+                        isAdmin ? (
+                            <>
+                                <Link to="/logout">Kijelentkezés</Link>
+                                <Link to="http://localhost:5000">Szerver</Link>
+                            </>
+                        ) : (
+                            <Link to="/logout">Kijelentkezés</Link>
+                        )
+                    ) : (
+                        <>
+                            <Link to="/register">Regisztráció</Link>
+                            <Link to="/login">Bejelentkezés</Link>
+                        </>
+                    )}
                 </div>
             </div>
         </div>
