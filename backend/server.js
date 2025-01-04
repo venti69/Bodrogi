@@ -37,6 +37,7 @@ app.use('/konyvmodosit', require('./routes/konyvModositRoutes'));
 app.use('/konyvegyedifrontend', require('./routes/egyediFrontendRoutes'));
 app.use('/register', require('./routes/registerRoutes'));
 app.use('/login', require('./routes/loginRoutes'));
+app.use('/felhasznalok', require('./routes/usersRoutes'));
 
 // Adatbázis csatlakozás
 let dbconnection = require('./utils/dbConnect');

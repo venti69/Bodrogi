@@ -14,6 +14,17 @@
 -   [ ] Eredmény: **images/kep_085.png**
 -   [ ] Szerkesszük a **server.js** állományt. Eredmény: **images/kep_070.png** => **images/kep_086.png**
 -   [ ] Szerkesszük az **index.ejs** állományt. Eredmény: **images/kep_010.png** => **images/kep_088.png**
+-   [ ] Hozzunk létre és szerkesszük a **controllers** mappában egy **usersRouteControllers.js** nevű állományt (Git Bash): `cd ..` `cd controllers` `touch usersRouteControllers.js`
+-   [ ] Eredmény: **images/kep_089.png**
+-   [ ] Hozzunk létre és szerkesszük a **routes** mappában egy **usersRoutes.js** nevű állományt (Git Bash): `cd ..` `cd routes` `touch usersRoutes.js`
+-   [ ] Eredmény: **images/kep_090.png**
+-   [ ] Hozzunk létre és szerkesszük a **views** mappában egy **felhasznalok.ejs** nevű állományt (Git Bash): `cd ..` `cd views` `touch felhasznalok.ejs`
+-   [ ] Eredmény: **images/kep_091.png**
+-   [ ] Hozzunk létre és szerkesszük a **public/CSS** mappában egy **felhasznalok.css** nevű állományt (Git Bash): `cd ..` `cd public/CSS` `touch felhasznalok.css`
+-   [ ] Eredmény: **images/kep_092.png**
+-   [ ] Hozzunk létre és szerkesszük a **public/JS** mappában egy **felhasznalo-torol.js** nevű állományt (Git Bash): `cd ..` `cd JS` `touch felhasznalo-torol.js`
+-   [ ] Eredmény: **images/kep_093.png**
+-   [ ] Szerkesszük a **server.js** állományt. Eredmény: **images/kep_086.png** => **images/kep_094.png**
 
 # Frontend (Client Side)
 

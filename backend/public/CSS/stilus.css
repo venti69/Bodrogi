@@ -3,6 +3,7 @@
 @import url('./index.css');
 @import url('./ujKonyv.css');
 @import url('./konyvek.css');
+@import url('./felhasznalok.css');
 
 * {
     box-sizing: border-box;
