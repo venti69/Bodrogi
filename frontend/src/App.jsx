@@ -7,16 +7,21 @@ import Register from './pages/Register';
 import Login from './pages/Login';
 import Logout from './pages/Logout';
 import ProtectedRoutes from './ProtectedRoutes';
+import Cart from './pages/Cart';
 
 function App() {
     return (
         <BrowserRouter>
             <Routes>
+                <Route
+                    index
+                    element={<Home />}
+                />
+                <Route
+                    path="/cart"
+                    element={<Cart />}
+                />
                 <Route element={<ProtectedRoutes />}>
-                    <Route
-                        index
-                        element={<Home />}
-                    />
                     <Route
                         path="/logout"
                         element={<Logout />}

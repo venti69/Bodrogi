@@ -23,6 +23,7 @@ const Login = () => {
                 if (response.ok) {
                     window.alert(valasz.msg);
                     localStorage.setItem('isLoggedIn', 1);
+                    localStorage.setItem('user', JSON.stringify(valasz.user));
                     if (valasz.isAdmin === true) {
                         localStorage.setItem('isAdmin', 1);
                     } else {

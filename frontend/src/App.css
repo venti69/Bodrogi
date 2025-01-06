@@ -5,6 +5,7 @@
 @import url('/CSS/UniqueBook.css');
 @import url('/CSS/Register.css');
 @import url('/CSS/Login.css');
+@import url('/CSS/Cart.css');
 
 * {
     box-sizing: border-box;

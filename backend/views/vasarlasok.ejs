@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/stilus.css"
+        />
+        <title>Szerver Books Page</title>
+    </head>
+    <body>
+        <%- include('./nav.ejs') %>
+        <div id="purchase-kontener">
+            <h1>Szerver Purchases Page</h1>
+            <div id="vasarlasok-kontener">
+                <% for( let i = 0; i < felhasznalok.length; i++ ) { %>
+                <div class="vasarlas-kontener">
+                    <h1>Vásárló: <%= felhasznalok[i].felhasznalo.nev %></h1>
+                    <h1>Könyvek:</h1>
+                    <% for( let j = 0; j < konyvek[i].konyvek.length; j++ ) { %>
+                    <p><%= konyvek[i].konyvek[j].cim %></p>
+                    <div class="vasarlas-konyv">
+                        <img src="/images/<%= konyvek[i].konyvek[j].kep %>" />
+                    </div>
+                    <% } %>
+                </div>
+                <% } %>
+            </div>
+        </div>
+        <script src="/JS/modosit-torol.js"></script>
+    </body>
+</html>

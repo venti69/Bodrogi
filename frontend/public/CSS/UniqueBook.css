@@ -7,10 +7,27 @@
     height: 100vh;
     justify-content: center;
     row-gap: 1em;
-    width: 100vw;
+    width: 100%;
 }
 
-.uniquebook-kontener button {
+.uniquebook-gombok {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 243px;
+}
+
+.uniquebook-gombok button {
+    background-color: orange;
+    border: none;
+    color: var(--feher);
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 5px;
+    width: 40px;
+}
+
+.uniquebook-gombok span {
     background-color: orange;
     border: none;
     color: var(--feher);

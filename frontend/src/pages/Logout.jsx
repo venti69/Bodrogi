@@ -7,6 +7,7 @@ const Logout = () => {
     useEffect(() => {
         localStorage.setItem('isLoggedIn', false);
         localStorage.setItem('isAdmin', false);
+        localStorage.removeItem('reservedBooks');
         navigate('/login');
     }, []);
     return <div></div>;

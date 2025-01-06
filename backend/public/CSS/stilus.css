@@ -4,6 +4,7 @@
 @import url('./ujKonyv.css');
 @import url('./konyvek.css');
 @import url('./felhasznalok.css');
+@import url('./vasarlasok.css');
 
 * {
     box-sizing: border-box;

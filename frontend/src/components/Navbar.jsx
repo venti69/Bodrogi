@@ -1,7 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { CartContext } from '../context/CartContext';
 
 const Navbar = () => {
+    const { szamlalo } = useContext(CartContext);
+
     const [isAdmin, setIsAdmin] = useState(true);
     const [isLoggedIn, setIsLoggedIn] = useState(true);
 
@@ -20,7 +23,12 @@ const Navbar = () => {
             </div>
             <div className="navbar-jobb-kontener">
                 <Link to="/books">Könyvek</Link>
-                <Link to="/cart">Kosár</Link>
+                <div className="navbar-books">
+                    <div className="navbar-kor">
+                        <span className="navbar-cart-number">{szamlalo}</span>
+                        <Link to="/cart">Kosár</Link>
+                    </div>
+                </div>
                 <div className="navbar-jobb-auth-kontener">
                     {isLoggedIn ? (
                         isAdmin ? (

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
+import { Link } from 'react-router-dom';
 
 const Books = () => {
     const [books, setBooks] = useState([]);
@@ -92,10 +93,6 @@ const Books = () => {
         dolgoz();
     }, [tipusok, arak]);
 
-    function megmutat(id) {
-        window.location.href = `/uniquebook/${id}`;
-    }
-
     function levalogat(ertek) {
         if (!tipusok.includes(ertek)) {
             setTipusok([...tipusok, ertek]);
@@ -178,9 +175,7 @@ const Books = () => {
                             <div className="book-kep">
                                 <img src={`./images/${book.kep}`} />
                             </div>
-                            <button onClick={() => megmutat(`${book._id}`)}>
-                                Megnézem
-                            </button>
+                            <Link to={`/uniquebook/${book._id}`}>Megmutat</Link>
                         </div>
                     ))}
                 </div>

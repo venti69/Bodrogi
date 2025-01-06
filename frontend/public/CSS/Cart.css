@@ -1,0 +1,29 @@
+.cart-kontener {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-attachment: fixed;
+    color: var(--feher);
+    display: grid;
+    height: max-content;
+    min-height: 93vh;
+    grid-template-columns: 80% 20%;
+    margin-bottom: -4em;
+    margin-top: 4em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    width: 100%;
+}
+
+.cart-bal-kontener {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cart-kontener button {
+    background-color: orange;
+    border: none;
+    color: var(--feher);
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 5px;
+    text-decoration: none;
+}

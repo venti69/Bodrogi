@@ -28,7 +28,11 @@ exports.postLogin = async (req, res) => {
         if (jelszoEgyezes) {
             return res
                 .status(201)
-                .json({ msg: 'Sikeres belépés!', isAdmin: letezoUser.isAdmin });
+                .json({
+                    msg: 'Sikeres belépés!',
+                    isAdmin: letezoUser.isAdmin,
+                    user: letezoUser,
+                });
         } else {
             return res
                 .status(403)

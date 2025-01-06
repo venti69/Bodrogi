@@ -45,10 +45,11 @@
     width: 100%;
 }
 
-.book-kontener button {
+.book-kontener a {
     background-color: orange;
     border: none;
     color: var(--feher);
     font-size: 1.5em;
     padding: 5px;
+    text-decoration: none;
 }
