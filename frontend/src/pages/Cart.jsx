@@ -69,7 +69,7 @@ const Cart = () => {
             const dolgoz = async () => {
                 try {
                     const response = await fetch(
-                        'http://localhost:5000/vasarlas',
+                        'http://localhost:5000/vasarlasok',
                         {
                             method: 'POST',
                             headers: {
@@ -87,7 +87,7 @@ const Cart = () => {
                     if (response.ok) {
                         window.alert(valasz.msg);
                         localStorage.removeItem('reservedBooks');
-                        window.location.href = '/login';
+                        window.location.href = '/';
                     } else {
                         window.alert(valasz.msg);
                     }
